@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Pw2FAolKSN1y815tJvmucVOjgEnHgyg/n9erlTnyJg1T/IMo7V6YuuaFuxufTUUs4mtmkUT361gy7lNTuGvL3A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hendrik Cromboom\\source\\repos\\TournamentApp\\TournamentLibrary\\TournamentLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hendrik Cromboom\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Hendrik Cromboom\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
