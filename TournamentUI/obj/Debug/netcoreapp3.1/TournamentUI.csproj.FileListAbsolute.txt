@@ -1,0 +1,15 @@
+C:\Users\Hendrik Cromboom\source\repos\TournamentApp\TournamentUI\bin\Debug\netcoreapp3.1\TournamentUI.exe
+C:\Users\Hendrik Cromboom\source\repos\TournamentApp\TournamentUI\bin\Debug\netcoreapp3.1\TournamentUI.deps.json
+C:\Users\Hendrik Cromboom\source\repos\TournamentApp\TournamentUI\bin\Debug\netcoreapp3.1\TournamentUI.runtimeconfig.json
+C:\Users\Hendrik Cromboom\source\repos\TournamentApp\TournamentUI\bin\Debug\netcoreapp3.1\TournamentUI.runtimeconfig.dev.json
+C:\Users\Hendrik Cromboom\source\repos\TournamentApp\TournamentUI\bin\Debug\netcoreapp3.1\TournamentUI.dll
+C:\Users\Hendrik Cromboom\source\repos\TournamentApp\TournamentUI\bin\Debug\netcoreapp3.1\TournamentUI.pdb
+C:\Users\Hendrik Cromboom\source\repos\TournamentApp\TournamentUI\obj\Debug\netcoreapp3.1\TournamentUI.csprojAssemblyReference.cache
+C:\Users\Hendrik Cromboom\source\repos\TournamentApp\TournamentUI\obj\Debug\netcoreapp3.1\TournamentUI.TournamentViewerForm.resources
+C:\Users\Hendrik Cromboom\source\repos\TournamentApp\TournamentUI\obj\Debug\netcoreapp3.1\TournamentUI.csproj.GenerateResource.cache
+C:\Users\Hendrik Cromboom\source\repos\TournamentApp\TournamentUI\obj\Debug\netcoreapp3.1\TournamentUI.AssemblyInfoInputs.cache
+C:\Users\Hendrik Cromboom\source\repos\TournamentApp\TournamentUI\obj\Debug\netcoreapp3.1\TournamentUI.AssemblyInfo.cs
+C:\Users\Hendrik Cromboom\source\repos\TournamentApp\TournamentUI\obj\Debug\netcoreapp3.1\TournamentUI.csproj.CoreCompileInputs.cache
+C:\Users\Hendrik Cromboom\source\repos\TournamentApp\TournamentUI\obj\Debug\netcoreapp3.1\TournamentUI.dll
+C:\Users\Hendrik Cromboom\source\repos\TournamentApp\TournamentUI\obj\Debug\netcoreapp3.1\TournamentUI.pdb
+C:\Users\Hendrik Cromboom\source\repos\TournamentApp\TournamentUI\obj\Debug\netcoreapp3.1\TournamentUI.genruntimeconfig.cache
