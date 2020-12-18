@@ -33,7 +33,12 @@
             this.tournamentNameValue = new System.Windows.Forms.TextBox();
             this.entryFeeLabel = new System.Windows.Forms.Label();
             this.entryFeeValue = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.addTeamButton = new System.Windows.Forms.Button();
+            this.selectTeamLabel = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.createTeamLink = new System.Windows.Forms.LinkLabel();
+            this.entriesLabel = new System.Windows.Forms.Label();
+            this.entriesBox = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // createTournamentLabel
@@ -90,21 +95,78 @@
             this.entryFeeValue.TabIndex = 2;
             this.entryFeeValue.Text = "0";
             // 
-            // button1
+            // addTeamButton
             // 
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.button1.Location = new System.Drawing.Point(26, 235);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(114, 52);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Create";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.addTeamButton.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.addTeamButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
+            this.addTeamButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.addTeamButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addTeamButton.Font = new System.Drawing.Font("Segoe UI Semibold", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.addTeamButton.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.addTeamButton.Location = new System.Drawing.Point(105, 347);
+            this.addTeamButton.Name = "addTeamButton";
+            this.addTeamButton.Size = new System.Drawing.Size(113, 42);
+            this.addTeamButton.TabIndex = 6;
+            this.addTeamButton.Text = "Add Team";
+            this.addTeamButton.UseVisualStyleBackColor = true;
+            this.addTeamButton.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // selectTeamLabel
+            // 
+            this.selectTeamLabel.AutoSize = true;
+            this.selectTeamLabel.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.selectTeamLabel.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.selectTeamLabel.Location = new System.Drawing.Point(26, 265);
+            this.selectTeamLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.selectTeamLabel.Name = "selectTeamLabel";
+            this.selectTeamLabel.Size = new System.Drawing.Size(159, 37);
+            this.selectTeamLabel.TabIndex = 1;
+            this.selectTeamLabel.Text = "Select Team";
+            this.selectTeamLabel.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox1.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(39, 320);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(284, 21);
+            this.comboBox1.TabIndex = 2;
+            // 
+            // createTeamLink
+            // 
+            this.createTeamLink.AutoSize = true;
+            this.createTeamLink.Location = new System.Drawing.Point(254, 284);
+            this.createTeamLink.Name = "createTeamLink";
+            this.createTeamLink.Size = new System.Drawing.Size(69, 13);
+            this.createTeamLink.TabIndex = 7;
+            this.createTeamLink.TabStop = true;
+            this.createTeamLink.Text = "Create Team";
+            // 
+            // entriesLabel
+            // 
+            this.entriesLabel.AutoSize = true;
+            this.entriesLabel.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.entriesLabel.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.entriesLabel.Location = new System.Drawing.Point(495, 74);
+            this.entriesLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.entriesLabel.Name = "entriesLabel";
+            this.entriesLabel.Size = new System.Drawing.Size(96, 37);
+            this.entriesLabel.TabIndex = 1;
+            this.entriesLabel.Text = "Entries";
+            this.entriesLabel.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // entriesBox
+            // 
+            this.entriesBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.entriesBox.FormattingEnabled = true;
+            this.entriesBox.Location = new System.Drawing.Point(403, 127);
+            this.entriesBox.MultiColumn = true;
+            this.entriesBox.Name = "entriesBox";
+            this.entriesBox.Size = new System.Drawing.Size(282, 171);
+            this.entriesBox.TabIndex = 4;
+            this.entriesBox.SelectedIndexChanged += new System.EventHandler(this.entriesBox_SelectedIndexChanged);
             // 
             // CreateTournamentForm
             // 
@@ -112,7 +174,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(726, 524);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.entriesBox);
+            this.Controls.Add(this.entriesLabel);
+            this.Controls.Add(this.createTeamLink);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.selectTeamLabel);
+            this.Controls.Add(this.addTeamButton);
             this.Controls.Add(this.entryFeeValue);
             this.Controls.Add(this.entryFeeLabel);
             this.Controls.Add(this.tournamentNameValue);
@@ -133,7 +200,12 @@
         private System.Windows.Forms.TextBox tournamentNameValue;
         private System.Windows.Forms.Label entryFeeLabel;
         private System.Windows.Forms.TextBox entryFeeValue;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button addTeamButton;
+        private System.Windows.Forms.Label selectTeamLabel;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.LinkLabel createTeamLink;
+        private System.Windows.Forms.Label entriesLabel;
+        private System.Windows.Forms.ListBox entriesBox;
     }
 }
 

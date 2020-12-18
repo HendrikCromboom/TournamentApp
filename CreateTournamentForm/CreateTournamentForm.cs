@@ -31,5 +31,10 @@ namespace CreateTournamentForm
         {
 
         }
+
+        private void entriesBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
